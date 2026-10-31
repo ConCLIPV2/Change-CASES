@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "total_maps_reproduced": 63,
+  "source_workspace": "external original ConceptCLIP data",
+  "generated_case_assets_committed": false,
+  "original_expand_overlay_distractor_function_AST_identical": true,
+  "workflows": [
+    {
+      "workflow": "luna_manual_batch_2026-10-17",
+      "maps_reproduced": 32,
+      "all_numerical_arrays_equal_saved_originals": true,
+      "overlay_and_heatmap_pixels_equal_saved_originals": true,
+      "builder_checks": {
+        "status": "passed",
+        "map_count": 32,
+        "case_count": 20,
+        "attribute_counts": {
+          "margin": 16,
+          "texture": 15,
+          "spiculation": 1
+        },
+        "starting_model_counts": {
+          "ConceptCLIP": 31,
+          "MOE29": 1
+        },
+        "all_requested_pairs_exactly_once": true,
+        "original_source_files_unchanged": true,
+        "hashed_original_file_count": 189
+      }
+    },
+    {
+      "workflow": "breast_manual_batch_2026-10-17",
+      "maps_reproduced": 31,
+      "all_numerical_arrays_equal_saved_originals": true,
+      "overlay_and_heatmap_pixels_equal_saved_originals": true,
+      "builder_checks": {
+        "status": "passed",
+        "map_count": 31,
+        "case_count": 18,
+        "attribute_counts": {
+          "halo": 14,
+          "margin": 5,
+          "calcifications": 10,
+          "shape": 2
+        },
+        "source_model_counts": {
+          "ConceptCLIP": 24,
+          "MOE29": 7
+        },
+        "cue_assessability_counts": {
+          "uncertain": 11,
+          "visible_candidate": 13,
+          "unresolved": 7
+        },
+        "original_source_files_unchanged": true,
+        "hashed_original_file_count": 196
+      }
+    }
+  ],
+  "limits": "Local reproduction and file consistency; no clinical validation or remote CI claim."
+}

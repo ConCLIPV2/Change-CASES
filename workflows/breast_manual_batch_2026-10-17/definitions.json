@@ -1,0 +1,13 @@
+{
+  "definitions": {
+    "shape": "Overall lesion geometry and defining contour; center-only activation is insufficient.",
+    "margin": "A meaningful lesion\u2013tissue interface segment, with the source lesion contour as anatomical anchor.",
+    "halo": "Immediately external peripheral rim; internal rings and boundary-only activation are insufficient. Negative cases indicate inspection guidance only.",
+    "calcifications": "Independently visible plausible discrete bright foci; source labels do not identify pixels. U means no focus can be resolved."
+  },
+  "source_protocol": "D:\\ConceptCLIP\\shared_research\\full_dataset_four_attribute_review_2026-10-12\\PROTOCOL.md",
+  "sources": [
+    "https://www.ippt.pan.pl/repository/open/o8782.pdf",
+    "https://www.uclahealth.org/departments/radiology/education/breast-imaging-teaching-resources/birads/ultrasound-masses"
+  ]
+}

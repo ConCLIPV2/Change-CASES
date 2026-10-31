@@ -1,0 +1,30 @@
+{
+  "source_sha256": {
+    "luna_manual_batch_2026-10-17/request.json": "751ac3922839de59f7bee5149bc7c5220ecd227b9f61401df223413b2a789cb2",
+    "luna_manual_batch_2026-10-17/review_inputs/manifest.json": "0f67c6c712ddf65783bc739a100042d27ab2fb360c691b0bdb26ab714fea2d16",
+    "luna_manual_batch_2026-10-17/plans/group_a.json": "88c209f0780ec59a1ba154ab85d6a999aabdf17222e749be7e659b68461e7e64",
+    "luna_manual_batch_2026-10-17/plans/group_b.json": "b63c90801462cda65c6655ea1f0985ec5429f8a691709c548159de681fa8ea0b",
+    "luna_manual_batch_2026-10-17/plans/group_c.json": "092cac6c77576144bb1815c7f2a36b1447a8a08320b0ba6d6469cc9bd1f97411",
+    "luna_manual_batch_2026-10-17/build_batch.py": "04e647bef6749ab542f15ea8c0ec6acb4ca6f2e89cf6f2e59470a05c531b272d",
+    "luna_manual_batch_2026-10-17/prepare_review_inputs.py": "33a939baa75739e24f911a1a408b8f849ff19ea8d1616ad7fe5f4e51e1a98f52",
+    "breast_manual_batch_2026-10-17/request.json": "c4d9d9e1bb08dd15005cb167478f6f198e7050de102142cd39f93becff4ddf0c",
+    "breast_manual_batch_2026-10-17/definitions.json": "ae607d0c14335331f033fcb3f629817d0ce9a2c4cb42f26972120d01993602bd",
+    "breast_manual_batch_2026-10-17/review_inputs/manifest.json": "21faabd1d54628c52f13e4eae82ddf062c380c831af661a4a50790fe5b0120df",
+    "breast_manual_batch_2026-10-17/plans/group_a.json": "94132305c70aeb6d317dd6306b2b5c2ddf540a06d5617e90f6e010045caedf17",
+    "breast_manual_batch_2026-10-17/plans/group_b.json": "4ac003577dd60d883caa4c4b72a68b35d6f8345e5e99f250aa78bef5e4dcb16e",
+    "breast_manual_batch_2026-10-17/plans/group_c.json": "f5e8b410cfc1c8c6d8ba2248dad42a49d32bc499747fb83ed628d278fb1581d4",
+    "breast_manual_batch_2026-10-17/build_batch.py": "691ba13ef2e4ac8693f135ac808cf8af4a7fd326c885d66369a0a0f571b6cb68",
+    "breast_manual_batch_2026-10-17/prepare_review_inputs.py": "98391bff7fb081158dbfbc82c5a99e8e11b3add204bca8028d87f52b4fb3f57e",
+    "luna283_margin_illustration_2026-10-16/build_manual_margin.py": "0241453f94094bdde8b54e055d2b434df1d3785639c5d2f7ac3cd17ce78f8d70",
+    "manual_attribute_heatmaps_2026-10-16/LUNA16_283/build_examples.py": "b58c4c1606ea2c407de3a8249ecd957c87d8febe98145eccc21da4145686a90f",
+    "manual_subideal_heatmaps_2026-10-16/build_luna283.py": "4075227b478b7cdb867b55e09efa607740adb206728d921fae3f35379b8a56ff",
+    "luna283_margin_texture_dirty_illustrations_2026-10-16/build_dirty_maps.py": "688ddaceaa53951aa708ee2cc3ece739c6ea49c0d7c2710504da0b525e22614c",
+    "luna283_model_guided_illustrations_2026-10-17/build_examples.py": "c1e6c1f0d1fdcd7efed21e3a52ab17cc894d83ebc17cf9a1cee8faa860a89522"
+  },
+  "adaptations": [
+    "Remove gallery/page/ZIP creation from final builders",
+    "Configurable external workspace and output directory",
+    "Retain original native-map, patch, distraction and rendering calculations"
+  ],
+  "case_assets_included": false
+}

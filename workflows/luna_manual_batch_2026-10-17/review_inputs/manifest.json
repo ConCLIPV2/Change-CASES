@@ -1,0 +1,514 @@
+[
+  {
+    "case_id": "LUNA16_283",
+    "attribute": "margin",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_283_margin.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_283\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_283\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_283\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_283\\ConceptCLIP_margin_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_283\\MOE29_margin_p01_overlay.png",
+    "zoom_box_xyxy": [
+      149,
+      143,
+      245,
+      239
+    ]
+  },
+  {
+    "case_id": "LUNA16_283",
+    "attribute": "texture",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_283_texture.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_283\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_283\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_283\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_283\\ConceptCLIP_texture_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_283\\MOE29_texture_p01_overlay.png",
+    "zoom_box_xyxy": [
+      149,
+      143,
+      245,
+      239
+    ]
+  },
+  {
+    "case_id": "LUNA16_545",
+    "attribute": "margin",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_545_margin.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_545\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_545\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_545\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_545\\ConceptCLIP_margin_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_545\\MOE29_margin_p01_overlay.png",
+    "zoom_box_xyxy": [
+      143,
+      140,
+      239,
+      236
+    ]
+  },
+  {
+    "case_id": "LUNA16_545",
+    "attribute": "texture",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_545_texture.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_545\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_545\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_545\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_545\\ConceptCLIP_texture_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_545\\MOE29_texture_p01_overlay.png",
+    "zoom_box_xyxy": [
+      143,
+      140,
+      239,
+      236
+    ]
+  },
+  {
+    "case_id": "LUNA16_1018",
+    "attribute": "margin",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_1018_margin.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1018\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1018\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1018\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1018\\ConceptCLIP_margin_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1018\\MOE29_margin_p01_overlay.png",
+    "zoom_box_xyxy": [
+      141,
+      141,
+      237,
+      237
+    ]
+  },
+  {
+    "case_id": "LUNA16_1018",
+    "attribute": "texture",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_1018_texture.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1018\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1018\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1018\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1018\\ConceptCLIP_texture_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1018\\MOE29_texture_p01_overlay.png",
+    "zoom_box_xyxy": [
+      141,
+      141,
+      237,
+      237
+    ]
+  },
+  {
+    "case_id": "LUNA16_300",
+    "attribute": "texture",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_300_texture.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_300\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_300\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_300\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_300\\ConceptCLIP_texture_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_300\\MOE29_texture_p01_overlay.png",
+    "zoom_box_xyxy": [
+      134,
+      149,
+      232,
+      247
+    ]
+  },
+  {
+    "case_id": "LUNA16_336",
+    "attribute": "margin",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_336_margin.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_336\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_336\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_336\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_336\\ConceptCLIP_margin_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_336\\MOE29_margin_p01_overlay.png",
+    "zoom_box_xyxy": [
+      142,
+      140,
+      238,
+      236
+    ]
+  },
+  {
+    "case_id": "LUNA16_336",
+    "attribute": "texture",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_336_texture.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_336\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_336\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_336\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_336\\ConceptCLIP_texture_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_336\\MOE29_texture_p01_overlay.png",
+    "zoom_box_xyxy": [
+      142,
+      140,
+      238,
+      236
+    ]
+  },
+  {
+    "case_id": "LUNA16_390",
+    "attribute": "texture",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_390_texture.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_390\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_390\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_390\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_390\\ConceptCLIP_texture_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_390\\MOE29_texture_p01_overlay.png",
+    "zoom_box_xyxy": [
+      141,
+      138,
+      237,
+      234
+    ]
+  },
+  {
+    "case_id": "LUNA16_391",
+    "attribute": "spiculation",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_391_spiculation.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_391\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_391\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_391\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_391\\ConceptCLIP_spiculation_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_391\\MOE29_spiculation_p01_overlay.png",
+    "zoom_box_xyxy": [
+      141,
+      139,
+      239,
+      237
+    ]
+  },
+  {
+    "case_id": "LUNA16_391",
+    "attribute": "texture",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_391_texture.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_391\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_391\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_391\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_391\\ConceptCLIP_texture_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_391\\MOE29_texture_p01_overlay.png",
+    "zoom_box_xyxy": [
+      141,
+      139,
+      239,
+      237
+    ]
+  },
+  {
+    "case_id": "LUNA16_472",
+    "attribute": "margin",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_472_margin.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_472\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_472\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_472\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_472\\ConceptCLIP_margin_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_472\\MOE29_margin_p01_overlay.png",
+    "zoom_box_xyxy": [
+      145,
+      143,
+      241,
+      239
+    ]
+  },
+  {
+    "case_id": "LUNA16_472",
+    "attribute": "texture",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_472_texture.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_472\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_472\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_472\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_472\\ConceptCLIP_texture_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_472\\MOE29_texture_p01_overlay.png",
+    "zoom_box_xyxy": [
+      145,
+      143,
+      241,
+      239
+    ]
+  },
+  {
+    "case_id": "LUNA16_633",
+    "attribute": "margin",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_633_margin.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_633\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_633\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_633\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_633\\ConceptCLIP_margin_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_633\\MOE29_margin_p01_overlay.png",
+    "zoom_box_xyxy": [
+      148,
+      147,
+      244,
+      243
+    ]
+  },
+  {
+    "case_id": "LUNA16_891",
+    "attribute": "margin",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_891_margin.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_891\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_891\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_891\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_891\\ConceptCLIP_margin_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_891\\MOE29_margin_p01_overlay.png",
+    "zoom_box_xyxy": [
+      143,
+      145,
+      239,
+      241
+    ]
+  },
+  {
+    "case_id": "LUNA16_891",
+    "attribute": "texture",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_891_texture.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_891\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_891\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_891\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_891\\ConceptCLIP_texture_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_891\\MOE29_texture_p01_overlay.png",
+    "zoom_box_xyxy": [
+      143,
+      145,
+      239,
+      241
+    ]
+  },
+  {
+    "case_id": "LUNA16_972",
+    "attribute": "margin",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_972_margin.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_972\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_972\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_972\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_972\\ConceptCLIP_margin_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_972\\MOE29_margin_p01_overlay.png",
+    "zoom_box_xyxy": [
+      140,
+      146,
+      236,
+      242
+    ]
+  },
+  {
+    "case_id": "LUNA16_972",
+    "attribute": "texture",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_972_texture.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_972\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_972\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_972\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_972\\ConceptCLIP_texture_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_972\\MOE29_texture_p01_overlay.png",
+    "zoom_box_xyxy": [
+      140,
+      146,
+      236,
+      242
+    ]
+  },
+  {
+    "case_id": "LUNA16_1051",
+    "attribute": "margin",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_1051_margin.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1051\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1051\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1051\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1051\\ConceptCLIP_margin_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1051\\MOE29_margin_p01_overlay.png",
+    "zoom_box_xyxy": [
+      144,
+      143,
+      241,
+      240
+    ]
+  },
+  {
+    "case_id": "LUNA16_1092",
+    "attribute": "margin",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_1092_margin.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1092\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1092\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1092\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1092\\ConceptCLIP_margin_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1092\\MOE29_margin_p01_overlay.png",
+    "zoom_box_xyxy": [
+      140,
+      134,
+      250,
+      244
+    ]
+  },
+  {
+    "case_id": "LUNA16_1092",
+    "attribute": "texture",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_1092_texture.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1092\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1092\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1092\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1092\\ConceptCLIP_texture_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1092\\MOE29_texture_p01_overlay.png",
+    "zoom_box_xyxy": [
+      140,
+      134,
+      250,
+      244
+    ]
+  },
+  {
+    "case_id": "LUNA16_1134",
+    "attribute": "margin",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_1134_margin.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1134\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1134\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1134\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1134\\ConceptCLIP_margin_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_1134\\MOE29_margin_p01_overlay.png",
+    "zoom_box_xyxy": [
+      149,
+      144,
+      245,
+      240
+    ]
+  },
+  {
+    "case_id": "LUNA16_15",
+    "attribute": "margin",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_15_margin.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_15\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_15\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_15\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_15\\ConceptCLIP_margin_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_15\\MOE29_margin_p01_overlay.png",
+    "zoom_box_xyxy": [
+      146,
+      146,
+      242,
+      242
+    ]
+  },
+  {
+    "case_id": "LUNA16_15",
+    "attribute": "texture",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_15_texture.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_15\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_15\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_15\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_15\\ConceptCLIP_texture_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_15\\MOE29_texture_p01_overlay.png",
+    "zoom_box_xyxy": [
+      146,
+      146,
+      242,
+      242
+    ]
+  },
+  {
+    "case_id": "LUNA16_136",
+    "attribute": "margin",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_136_margin.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_136\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_136\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_136\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_136\\ConceptCLIP_margin_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_136\\MOE29_margin_p01_overlay.png",
+    "zoom_box_xyxy": [
+      148,
+      135,
+      248,
+      235
+    ]
+  },
+  {
+    "case_id": "LUNA16_155",
+    "attribute": "margin",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_155_margin.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_155\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_155\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_155\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_155\\ConceptCLIP_margin_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_155\\MOE29_margin_p01_overlay.png",
+    "zoom_box_xyxy": [
+      143,
+      149,
+      239,
+      245
+    ]
+  },
+  {
+    "case_id": "LUNA16_155",
+    "attribute": "texture",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_155_texture.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_155\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_155\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_155\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_155\\ConceptCLIP_texture_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_155\\MOE29_texture_p01_overlay.png",
+    "zoom_box_xyxy": [
+      143,
+      149,
+      239,
+      245
+    ]
+  },
+  {
+    "case_id": "LUNA16_194",
+    "attribute": "margin",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_194_margin.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_194\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_194\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_194\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_194\\ConceptCLIP_margin_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_194\\MOE29_margin_p01_overlay.png",
+    "zoom_box_xyxy": [
+      142,
+      148,
+      238,
+      244
+    ]
+  },
+  {
+    "case_id": "LUNA16_194",
+    "attribute": "texture",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_194_texture.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_194\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_194\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_194\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_194\\ConceptCLIP_texture_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_194\\MOE29_texture_p01_overlay.png",
+    "zoom_box_xyxy": [
+      142,
+      148,
+      238,
+      244
+    ]
+  },
+  {
+    "case_id": "LUNA16_257",
+    "attribute": "margin",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_257_margin.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_257\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_257\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_257\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_257\\ConceptCLIP_margin_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_257\\MOE29_margin_p01_overlay.png",
+    "zoom_box_xyxy": [
+      141,
+      147,
+      237,
+      243
+    ]
+  },
+  {
+    "case_id": "LUNA16_927",
+    "attribute": "texture",
+    "review_image": "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_927_texture.png",
+    "source": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_927\\source.png",
+    "input": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_927\\input.png",
+    "reference": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_927\\reference.png",
+    "base_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_927\\ConceptCLIP_texture_p01_overlay.png",
+    "moe29_overlay": "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_927\\MOE29_texture_p01_overlay.png",
+    "zoom_box_xyxy": [
+      139,
+      145,
+      235,
+      241
+    ]
+  }
+]

@@ -1,0 +1,443 @@
+[
+  {
+    "case_id": "LUNA16_15",
+    "attribute": "margin",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Lower-left soft outer transition, with an incomplete lower edge and weaker rightward spill.",
+    "reason": "Both clean views show a compact target whose left/lower fringe blends into nearby lung, while a thin rightward structure remains a competing feature. The base p01 map already contacts part of that fringe; retain its dirty field and strengthen only a broken left/lower subset. Do not trace a complete ring or treat the sharper portions as evidence of indistinctness.",
+    "target_patches": [
+      [
+        14,
+        12,
+        1.0
+      ],
+      [
+        14,
+        13,
+        0.92
+      ],
+      [
+        15,
+        13,
+        0.81
+      ],
+      [
+        13,
+        12,
+        0.73
+      ],
+      [
+        14,
+        14,
+        0.66
+      ],
+      [
+        13,
+        15,
+        0.57
+      ]
+    ],
+    "inspected_files": [
+      "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_15_margin.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_15\\source.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_15\\input.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_15\\ConceptCLIP_margin_p01_overlay.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_15\\MOE29_margin_p01_overlay.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_user_study_review_2026-10-12\\definitions.json"
+    ],
+    "caveat": "Illustrative manual derivative only. The coarse left/lower blocks include neighboring lung and the lower edge is only partly represented; source PNG appearance cannot establish a clinical margin rating."
+  },
+  {
+    "case_id": "LUNA16_15",
+    "attribute": "texture",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Selected lower and upper-left interior cells of the bright body, leaving uneven coverage.",
+    "reason": "The clean target contains a bright compact interior with a less uniform lower extension. Base p01 already touches its lower-right body, whereas moe29 mainly activates elsewhere. Place the strongest cell inside the lower body and a secondary upper-left cell; allow weaker cells below and to the side so the texture cue remains visibly imperfect.",
+    "target_patches": [
+      [
+        14,
+        14,
+        1.0
+      ],
+      [
+        13,
+        13,
+        0.91
+      ],
+      [
+        14,
+        13,
+        0.83
+      ],
+      [
+        13,
+        14,
+        0.69
+      ],
+      [
+        15,
+        14,
+        0.58
+      ],
+      [
+        14,
+        15,
+        0.49
+      ]
+    ],
+    "inspected_files": [
+      "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_15_texture.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_15\\source.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_15\\input.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_15\\ConceptCLIP_texture_p01_overlay.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_15\\MOE29_texture_p01_overlay.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_user_study_review_2026-10-12\\definitions.json"
+    ],
+    "caveat": "Illustrative manual derivative only. Texture refers to visible solid/part-solid appearance, not calcium or a validated density label; 14-pixel blocks inevitably mix interior and peripheral tissue."
+  },
+  {
+    "case_id": "LUNA16_136",
+    "attribute": "margin",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Broken upper-left transition of the lower rounded component and its narrow upper connection.",
+    "reason": "The clean image separates a lower body from an irregular upper connection with adjacent airway/vessel-like structures. The upper-left lower-body transition is less crisp than the bright body. Base p01 provides partial contact there with substantial contextual spill. Emphasize that limited transition without filling the lower body or claiming every upper branching structure is the target.",
+    "target_patches": [
+      [
+        13,
+        12,
+        1.0
+      ],
+      [
+        12,
+        13,
+        0.94
+      ],
+      [
+        12,
+        12,
+        0.87
+      ],
+      [
+        14,
+        12,
+        0.75
+      ],
+      [
+        11,
+        12,
+        0.61
+      ],
+      [
+        12,
+        14,
+        0.68
+      ],
+      [
+        13,
+        11,
+        0.56
+      ]
+    ],
+    "inspected_files": [
+      "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_136_margin.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_136\\source.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_136\\input.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_136\\ConceptCLIP_margin_p01_overlay.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_136\\MOE29_margin_p01_overlay.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_user_study_review_2026-10-12\\definitions.json"
+    ],
+    "caveat": "Illustrative manual derivative only. Upper airway/vessel adjacency makes attribution ambiguous, and the selected cells intentionally include spill while leaving most of the lower/right contour unaccented."
+  },
+  {
+    "case_id": "LUNA16_155",
+    "attribute": "margin",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Small upper-left fuzzy fringe and lower attachment; leave the clearer right contour without manual emphasis.",
+    "reason": "Most of the clean body is relatively distinct, so a complete bright perimeter would misrepresent the positive indistinct-margin prompt. Base p01 contacts the upper-left fringe and lower attachment more selectively than the broad moe29 field. Strengthen only these separated soft portions, with adjacent spill and a gap between them.",
+    "target_patches": [
+      [
+        13,
+        12,
+        1.0
+      ],
+      [
+        12,
+        12,
+        0.86
+      ],
+      [
+        12,
+        13,
+        0.74
+      ],
+      [
+        15,
+        14,
+        0.91
+      ],
+      [
+        16,
+        14,
+        0.57
+      ],
+      [
+        14,
+        15,
+        0.59
+      ]
+    ],
+    "inspected_files": [
+      "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_155_margin.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_155\\source.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_155\\input.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_155\\ConceptCLIP_margin_p01_overlay.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_155\\MOE29_margin_p01_overlay.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_user_study_review_2026-10-12\\definitions.json"
+    ],
+    "caveat": "Illustrative manual derivative only. The target has visibly clearer edges too; these patches are a partial depiction of soft local transitions and must not be interpreted as a global clinical margin label."
+  },
+  {
+    "case_id": "LUNA16_155",
+    "attribute": "texture",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Uneven emphasis on the central bright body and lower-right component.",
+    "reason": "The clean input shows a largely bright interior with a lower-right extension. The base p01 map contains body signal as well as numerous remote blocks, providing the desired dirty starting field. Boost a few interior patches while leaving the upper edge and part of the left/lower interior at the retained baseline, with weaker inferior spill.",
+    "target_patches": [
+      [
+        13,
+        13,
+        1.0
+      ],
+      [
+        14,
+        14,
+        0.94
+      ],
+      [
+        14,
+        13,
+        0.79
+      ],
+      [
+        13,
+        14,
+        0.72
+      ],
+      [
+        15,
+        14,
+        0.61
+      ],
+      [
+        12,
+        13,
+        0.51
+      ]
+    ],
+    "inspected_files": [
+      "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_155_texture.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_155\\source.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_155\\input.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_155\\ConceptCLIP_texture_p01_overlay.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_155\\MOE29_texture_p01_overlay.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_user_study_review_2026-10-12\\definitions.json"
+    ],
+    "caveat": "Illustrative manual derivative only. This is partial interior guidance for the combined solid/part-solid prompt, not a segmentation or proof of either texture class; the inferior block also includes an attachment."
+  },
+  {
+    "case_id": "LUNA16_194",
+    "attribute": "margin",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Separated left extension, faint right edge, and short lower taper.",
+    "reason": "The clean zoom shows irregular soft projections around a small body containing dark internal spaces. Base p01 is centered too much on the body but already supplies local and remote noise. Add broken lateral/lower transition cells instead of uniformly painting the entire target; leave the upper contour incomplete and retain background distractions.",
+    "target_patches": [
+      [
+        14,
+        12,
+        1.0
+      ],
+      [
+        13,
+        15,
+        0.91
+      ],
+      [
+        15,
+        14,
+        0.84
+      ],
+      [
+        13,
+        12,
+        0.77
+      ],
+      [
+        14,
+        15,
+        0.63
+      ],
+      [
+        15,
+        13,
+        0.57
+      ]
+    ],
+    "inspected_files": [
+      "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_194_margin.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_194\\source.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_194\\input.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_194\\ConceptCLIP_margin_p01_overlay.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_194\\MOE29_margin_p01_overlay.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_user_study_review_2026-10-12\\definitions.json"
+    ],
+    "caveat": "Illustrative manual derivative only. Coarse cells include outside tissue and some interior; the appearance is not an attribute ground truth and does not establish clinical indistinctness."
+  },
+  {
+    "case_id": "LUNA16_194",
+    "attribute": "texture",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Partial denser-looking bridges and right/lower interior around visible dark spaces.",
+    "reason": "The clean image has visible internal dark spaces within brighter tissue. Base p01 carries weak body signal while moe29 is almost entirely remote, so retain base and strengthen a few brighter interior regions. Avoid uniform saturation of the whole body and keep weaker upper/lower spill to preserve the requested imperfect appearance.",
+    "target_patches": [
+      [
+        13,
+        14,
+        1.0
+      ],
+      [
+        14,
+        14,
+        0.87
+      ],
+      [
+        13,
+        13,
+        0.71
+      ],
+      [
+        15,
+        14,
+        0.57
+      ],
+      [
+        12,
+        13,
+        0.46
+      ]
+    ],
+    "inspected_files": [
+      "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_194_texture.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_194\\source.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_194\\input.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_194\\ConceptCLIP_texture_p01_overlay.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_194\\MOE29_texture_p01_overlay.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_user_study_review_2026-10-12\\definitions.json"
+    ],
+    "caveat": "Illustrative manual derivative only. Fourteen-pixel cells cannot separate small internal dark spaces from surrounding bright tissue, and PNG intensity is not a calibrated attenuation measurement."
+  },
+  {
+    "case_id": "LUNA16_257",
+    "attribute": "margin",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Faint leftward extension and lower-left body-to-lung transition.",
+    "reason": "The clean target has a bright main body with internal dark areas, plus a faint leftward transition near a separate brighter vertical structure. Base p01 already reaches some left/inferior territory; choose it and manually strengthen only that patchy left/lower transition, retaining a neighboring distractor cell rather than making a clean ring.",
+    "target_patches": [
+      [
+        14,
+        12,
+        1.0
+      ],
+      [
+        13,
+        12,
+        0.92
+      ],
+      [
+        15,
+        13,
+        0.86
+      ],
+      [
+        14,
+        13,
+        0.73
+      ],
+      [
+        14,
+        11,
+        0.66
+      ],
+      [
+        15,
+        12,
+        0.56
+      ]
+    ],
+    "inspected_files": [
+      "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_257_margin.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_257\\source.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_257\\input.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_257\\ConceptCLIP_margin_p01_overlay.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_257\\MOE29_margin_p01_overlay.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_user_study_review_2026-10-12\\definitions.json"
+    ],
+    "caveat": "Illustrative manual derivative only. The nearby vertical structure is competing anatomy, not proof of the target margin; intentional leftward spill and incomplete upper/right coverage remain."
+  },
+  {
+    "case_id": "LUNA16_927",
+    "attribute": "texture",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Central/lower brighter component while leaving the more diffuse upper component weaker.",
+    "reason": "The clean input shows a brighter central/lower body adjacent to mediastinal tissue and a less compact upper component. Base p01 already places a central patch and broad remote distractions. Shift emphasis to a few lower/central interior cells while keeping the upper region and surrounding strands incompletely covered; preserve weak lower and left spill.",
+    "target_patches": [
+      [
+        14,
+        13,
+        1.0
+      ],
+      [
+        13,
+        13,
+        0.93
+      ],
+      [
+        14,
+        14,
+        0.81
+      ],
+      [
+        15,
+        13,
+        0.63
+      ],
+      [
+        14,
+        12,
+        0.54
+      ],
+      [
+        15,
+        14,
+        0.49
+      ]
+    ],
+    "inspected_files": [
+      "D:\\ConceptCLIP\\shared_research\\luna_manual_batch_2026-10-17\\review_inputs\\LUNA16_927_texture.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_927\\source.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_927\\input.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_927\\ConceptCLIP_texture_p01_overlay.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_train_attribute_gallery_2026-10-15\\assets\\LUNA16_927\\MOE29_texture_p01_overlay.png",
+      "D:\\ConceptCLIP\\shared_research\\luna16_user_study_review_2026-10-12\\definitions.json"
+    ],
+    "caveat": "Illustrative manual derivative only. The broad solid/part-solid prompt does not distinguish these classes, and proximity to mediastinal tissue plus coarse patch spill limits interpretation."
+  }
+]

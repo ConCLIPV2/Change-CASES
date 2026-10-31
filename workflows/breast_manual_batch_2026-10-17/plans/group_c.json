@@ -1,0 +1,744 @@
+[
+  {
+    "case_id": "BrEaST-Case249",
+    "attribute": "margin",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Uneven lesion-tissue interface segments, strongest along the stepped right shoulder and lower contour.",
+    "reason": "ConceptCLIP p01 has less diffuse background activation than MOE29 and retains several right-side/interface responses. Hand-selected patches emphasize the visible shoulder and lower contour without treating the complete lesion mask as margin ground truth.",
+    "target_patches": [
+      [
+        4,
+        9,
+        0.73
+      ],
+      [
+        3,
+        10,
+        0.54
+      ],
+      [
+        3,
+        12,
+        0.62
+      ],
+      [
+        4,
+        14,
+        0.83
+      ],
+      [
+        5,
+        15,
+        0.65
+      ],
+      [
+        7,
+        16,
+        0.82
+      ],
+      [
+        8,
+        18,
+        1
+      ],
+      [
+        9,
+        18,
+        0.9
+      ],
+      [
+        10,
+        18,
+        0.86
+      ],
+      [
+        11,
+        17,
+        0.71
+      ],
+      [
+        13,
+        16,
+        0.8
+      ],
+      [
+        14,
+        15,
+        0.63
+      ],
+      [
+        15,
+        13,
+        0.88
+      ],
+      [
+        16,
+        11,
+        0.74
+      ],
+      [
+        14,
+        10,
+        0.61
+      ],
+      [
+        12,
+        8,
+        0.77
+      ],
+      [
+        10,
+        7,
+        0.68
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/breast_manual_batch_2026-10-17/review_inputs/BrEaST-Case249_margin.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/249/original.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/249/original_reference.png"
+    ],
+    "caveat": "Manual interface annotation; the source label is microlobulated/indistinct and does not specify pixel-level margin truth.",
+    "cue_assessability": "visible_candidate"
+  },
+  {
+    "case_id": "BrEaST-Case073",
+    "attribute": "halo",
+    "source_model": "moe29",
+    "variant": "p01",
+    "focus": "Exploratory immediately exterior tissue beside the diagonal lesion, with gaps along its right shoulder and lower tip.",
+    "reason": "MOE29 p01 is more concentrated and has less distant activation than ConceptCLIP. Its existing response largely lies on the lesion; the manual target moves inspection to adjacent exterior tissue rather than claiming an internal dark band is a halo.",
+    "target_patches": [
+      [
+        4,
+        11,
+        0.72
+      ],
+      [
+        5,
+        13,
+        0.91
+      ],
+      [
+        7,
+        14,
+        1
+      ],
+      [
+        9,
+        16,
+        0.84
+      ],
+      [
+        10,
+        17,
+        0.67
+      ],
+      [
+        11,
+        15,
+        0.79
+      ],
+      [
+        10,
+        13,
+        0.58
+      ],
+      [
+        6,
+        8,
+        0.61
+      ],
+      [
+        8,
+        10,
+        0.74
+      ],
+      [
+        9,
+        12,
+        0.46
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/breast_manual_batch_2026-10-17/review_inputs/BrEaST-Case073_halo.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/073/original.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/073/original_reference.png"
+    ],
+    "caveat": "Source Halo=no. No definite echogenic halo is established; these are manual exterior inspection patches, not a positive halo segmentation. The upper lesion extends beyond the model crop.",
+    "cue_assessability": "uncertain"
+  },
+  {
+    "case_id": "BrEaST-Case073",
+    "attribute": "calcifications",
+    "source_model": "moe29",
+    "variant": "p01",
+    "focus": "Unresolved exploratory inspection ROI near the distal lesion/tissue junction.",
+    "reason": "MOE29 p01 has a relatively compact lower-lesion response, while ConceptCLIP also emphasizes a broad left tissue band. The clean full image does not resolve a convincing discrete calcific focus, so the small manual patch group is explicitly an inspection placeholder.",
+    "target_patches": [
+      [
+        9,
+        14,
+        1
+      ],
+      [
+        9,
+        15,
+        0.72
+      ],
+      [
+        10,
+        15,
+        0.62
+      ],
+      [
+        10,
+        14,
+        0.45
+      ],
+      [
+        8,
+        14,
+        0.36
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/breast_manual_batch_2026-10-17/review_inputs/BrEaST-Case073_calcifications.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/073/original.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/073/original_reference.png"
+    ],
+    "caveat": "Source Calcifications=indefinable. No credible discrete calcific target was resolved. The selected tissue echoes must not be described as calcium or as feature ground truth.",
+    "cue_assessability": "unresolved"
+  },
+  {
+    "case_id": "BrEaST-Case103",
+    "attribute": "calcifications",
+    "source_model": "moe29",
+    "variant": "p01",
+    "focus": "Unresolved exploratory inspection ROI at the right protrusion and adjacent echogenic junction.",
+    "reason": "MOE29 p01 supplies a more localized right-protrusion response than ConceptCLIP's broad vertical/posterior activation. No independent discrete calcific focus is convincingly visible there on the clean image; this is an explicitly uncertain inspection site.",
+    "target_patches": [
+      [
+        10,
+        13,
+        1
+      ],
+      [
+        10,
+        14,
+        0.62
+      ],
+      [
+        11,
+        13,
+        0.45
+      ],
+      [
+        9,
+        13,
+        0.38
+      ],
+      [
+        11,
+        14,
+        0.26
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/breast_manual_batch_2026-10-17/review_inputs/BrEaST-Case103_calcifications.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/103/original.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/103/original_reference.png"
+    ],
+    "caveat": "Source Calcifications=no. This junction/texture is not asserted to be calcium. Manual exploratory ROI only, not a detected positive feature.",
+    "cue_assessability": "unresolved"
+  },
+  {
+    "case_id": "BrEaST-Case219",
+    "attribute": "halo",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Immediately exterior lower and lateral perilesional tissue, retaining uneven coverage and gaps.",
+    "reason": "ConceptCLIP p01 reaches more of the peripheral lower/left neighborhood; MOE29 is sparser but largely interior. Manual patches inspect exterior tissue beside the lower lobule and lateral shoulders without converting internal linear echoes into a halo.",
+    "target_patches": [
+      [
+        14,
+        9,
+        0.78
+      ],
+      [
+        15,
+        11,
+        0.64
+      ],
+      [
+        17,
+        13,
+        1
+      ],
+      [
+        17,
+        14,
+        0.83
+      ],
+      [
+        16,
+        15,
+        0.74
+      ],
+      [
+        15,
+        17,
+        0.67
+      ],
+      [
+        13,
+        21,
+        0.85
+      ],
+      [
+        10,
+        22,
+        0.73
+      ],
+      [
+        7,
+        21,
+        0.59
+      ],
+      [
+        4,
+        16,
+        0.52
+      ],
+      [
+        5,
+        9,
+        0.61
+      ],
+      [
+        6,
+        7,
+        0.69
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/breast_manual_batch_2026-10-17/review_inputs/BrEaST-Case219_halo.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/219/original.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/219/original_reference.png"
+    ],
+    "caveat": "Source Halo=no. No definite halo is established; external inspection guidance only. Coarse 14-pixel footprints may straddle the anatomical boundary.",
+    "cue_assessability": "uncertain"
+  },
+  {
+    "case_id": "BrEaST-Case219",
+    "attribute": "calcifications",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Unresolved exploratory inspection ROI near the central-right linear echogenic texture.",
+    "reason": "ConceptCLIP p01 has less pervasive diffuse activation than MOE29. The clean view shows strands and speckle rather than a convincing discrete calcific focus; a small uneven inspection group is placed at the texture for transparent exploratory review.",
+    "target_patches": [
+      [
+        10,
+        16,
+        1
+      ],
+      [
+        9,
+        17,
+        0.66
+      ],
+      [
+        10,
+        17,
+        0.48
+      ],
+      [
+        9,
+        16,
+        0.53
+      ],
+      [
+        11,
+        15,
+        0.31
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/breast_manual_batch_2026-10-17/review_inputs/BrEaST-Case219_calcifications.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/219/original.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/219/original_reference.png"
+    ],
+    "caveat": "Source Calcifications=no. Linear echoes and speckle are not being classified as calcium. This manual ROI is unresolved and cannot be treated as positive-feature localization.",
+    "cue_assessability": "unresolved"
+  },
+  {
+    "case_id": "BrEaST-Case094",
+    "attribute": "margin",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Angular left step, lower interface, and rightward pointed shoulder of the lesion.",
+    "reason": "ConceptCLIP p01 has substantially more meaningful peripheral contact and less dominant remote inferior activation than MOE29. Manual patches trace selected unequal interface segments, emphasizing the right angular shoulder and lower-left transition.",
+    "target_patches": [
+      [
+        7,
+        17,
+        1
+      ],
+      [
+        8,
+        18,
+        0.84
+      ],
+      [
+        8,
+        16,
+        0.67
+      ],
+      [
+        7,
+        15,
+        0.82
+      ],
+      [
+        9,
+        13,
+        0.68
+      ],
+      [
+        9,
+        11,
+        0.85
+      ],
+      [
+        8,
+        9,
+        0.74
+      ],
+      [
+        6,
+        7,
+        0.63
+      ],
+      [
+        5,
+        7,
+        0.76
+      ],
+      [
+        4,
+        9,
+        0.8
+      ],
+      [
+        3,
+        10,
+        0.59
+      ],
+      [
+        3,
+        13,
+        0.52
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/breast_manual_batch_2026-10-17/review_inputs/BrEaST-Case094_margin.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/094/original.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/094/original_reference.png"
+    ],
+    "caveat": "Manual interface cue for source non-circumscribed/angular margin; not a clinician-validated attribute mask.",
+    "cue_assessability": "visible_candidate"
+  },
+  {
+    "case_id": "BrEaST-Case094",
+    "attribute": "halo",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Exploratory immediately exterior tissue around left and inferior lesion shoulders.",
+    "reason": "ConceptCLIP p01 is less interior-dominant than MOE29 and provides the cleaner peripheral starting cue. Manual patches sit outside the lesion, mostly along the left/lower flank, without asserting a halo in this source-negative case.",
+    "target_patches": [
+      [
+        4,
+        7,
+        0.61
+      ],
+      [
+        5,
+        6,
+        0.79
+      ],
+      [
+        7,
+        7,
+        1
+      ],
+      [
+        8,
+        8,
+        0.82
+      ],
+      [
+        9,
+        9,
+        0.73
+      ],
+      [
+        10,
+        11,
+        0.66
+      ],
+      [
+        10,
+        13,
+        0.84
+      ],
+      [
+        9,
+        15,
+        0.7
+      ],
+      [
+        9,
+        17,
+        0.53
+      ],
+      [
+        7,
+        19,
+        0.45
+      ],
+      [
+        5,
+        16,
+        0.58
+      ],
+      [
+        3,
+        14,
+        0.39
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/breast_manual_batch_2026-10-17/review_inputs/BrEaST-Case094_halo.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/094/original.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/094/original_reference.png"
+    ],
+    "caveat": "Source Halo=no. No definite halo is established; this is manual exterior inspection guidance, not positive halo detection.",
+    "cue_assessability": "uncertain"
+  },
+  {
+    "case_id": "BrEaST-Case094",
+    "attribute": "calcifications",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Small discrete bright candidate within the right-central lesion, approximately model-input x198,y85.",
+    "reason": "ConceptCLIP p01 is much less diffusely activated than MOE29. The clean original and model input show a small distinguishable intralesional bright focus, independently of the heatmap, around which a compact uneven patch group is placed.",
+    "target_patches": [
+      [
+        6,
+        14,
+        1
+      ],
+      [
+        5,
+        14,
+        0.68
+      ],
+      [
+        6,
+        13,
+        0.54
+      ],
+      [
+        5,
+        13,
+        0.39
+      ],
+      [
+        6,
+        15,
+        0.31
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/breast_manual_batch_2026-10-17/review_inputs/BrEaST-Case094_calcifications.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/094/original.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/094/original_reference.png"
+    ],
+    "caveat": "Source Calcifications=in a mass, but the visible bright candidate is not clinically confirmed calcium; the 14-pixel patch size exceeds the tiny focus.",
+    "cue_assessability": "visible_candidate"
+  },
+  {
+    "case_id": "BrEaST-Case143",
+    "attribute": "shape",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Irregular superior apex, left indentation, right-pointing shoulder, and lower notch of the small lesion.",
+    "reason": "ConceptCLIP p01 captures a broader set of contour-related regions than MOE29, whose dominant signal is upper/interior with distant scattered patches. Manual targets span several unequal contour segments to represent overall geometry instead of only the central bright texture.",
+    "target_patches": [
+      [
+        6,
+        14,
+        0.88
+      ],
+      [
+        7,
+        13,
+        0.74
+      ],
+      [
+        8,
+        13,
+        0.76
+      ],
+      [
+        8,
+        12,
+        0.91
+      ],
+      [
+        9,
+        12,
+        0.83
+      ],
+      [
+        10,
+        11,
+        0.64
+      ],
+      [
+        11,
+        12,
+        0.77
+      ],
+      [
+        12,
+        13,
+        0.72
+      ],
+      [
+        12,
+        14,
+        1
+      ],
+      [
+        12,
+        15,
+        0.59
+      ],
+      [
+        11,
+        15,
+        0.87
+      ],
+      [
+        10,
+        16,
+        0.82
+      ],
+      [
+        9,
+        16,
+        0.93
+      ],
+      [
+        8,
+        17,
+        0.68
+      ],
+      [
+        7,
+        15,
+        0.79
+      ],
+      [
+        8,
+        15,
+        0.65
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/breast_manual_batch_2026-10-17/review_inputs/BrEaST-Case143_shape.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/143/original.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/143/original_reference.png"
+    ],
+    "caveat": "Manual geometry annotation of the source-labeled irregular lesion; small-lesion detail is coarser than the 14-pixel grid.",
+    "cue_assessability": "visible_candidate"
+  },
+  {
+    "case_id": "BrEaST-Case143",
+    "attribute": "halo",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Exploratory exterior tissue around the left shoulder, inferior notch and right tip.",
+    "reason": "Both source maps mainly activate lesion interior; ConceptCLIP provides slightly wider edge-adjacent support than MOE29. The hand-selected inspection patches are exterior and discontinuous so internal calcific-looking/bright texture is not mislabeled as a halo.",
+    "target_patches": [
+      [
+        7,
+        12,
+        0.75
+      ],
+      [
+        8,
+        11,
+        1
+      ],
+      [
+        9,
+        10,
+        0.64
+      ],
+      [
+        11,
+        11,
+        0.72
+      ],
+      [
+        12,
+        11,
+        0.54
+      ],
+      [
+        13,
+        13,
+        0.86
+      ],
+      [
+        13,
+        15,
+        0.69
+      ],
+      [
+        12,
+        16,
+        0.81
+      ],
+      [
+        10,
+        18,
+        0.57
+      ],
+      [
+        9,
+        18,
+        0.68
+      ],
+      [
+        7,
+        16,
+        0.52
+      ],
+      [
+        6,
+        15,
+        0.43
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/breast_manual_batch_2026-10-17/review_inputs/BrEaST-Case143_halo.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/143/original.png",
+      "D:/ConceptCLIP/shared_research/full_dataset_four_attribute_review_2026-10-12/assets/143/original_reference.png"
+    ],
+    "caveat": "Source Halo=no. No definite halo is established, and neither original map establishes exterior-rim localization. Manual inspection ROI only.",
+    "cue_assessability": "uncertain"
+  }
+]

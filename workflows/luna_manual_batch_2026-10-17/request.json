@@ -1,0 +1,162 @@
+[
+  {
+    "case_id": "LUNA16_283",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_283",
+    "attribute": "texture",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_545",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_545",
+    "attribute": "texture",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_1018",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_1018",
+    "attribute": "texture",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_300",
+    "attribute": "texture",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_336",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_336",
+    "attribute": "texture",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_390",
+    "attribute": "texture",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_391",
+    "attribute": "spiculation",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_391",
+    "attribute": "texture",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_472",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_472",
+    "attribute": "texture",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_633",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_891",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_891",
+    "attribute": "texture",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_972",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_972",
+    "attribute": "texture",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_1051",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_1092",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_1092",
+    "attribute": "texture",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_1134",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_15",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_15",
+    "attribute": "texture",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_136",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_155",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_155",
+    "attribute": "texture",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_194",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_194",
+    "attribute": "texture",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_257",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "LUNA16_927",
+    "attribute": "texture",
+    "variant": "p01"
+  }
+]

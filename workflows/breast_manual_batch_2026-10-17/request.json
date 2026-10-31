@@ -1,0 +1,157 @@
+[
+  {
+    "case_id": "BrEaST-Case244",
+    "attribute": "halo",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case164",
+    "attribute": "halo",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case164",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case027",
+    "attribute": "halo",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case037",
+    "attribute": "halo",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case158",
+    "attribute": "halo",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case158",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case101",
+    "attribute": "halo",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case101",
+    "attribute": "calcifications",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case013",
+    "attribute": "calcifications",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case149",
+    "attribute": "calcifications",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case125",
+    "attribute": "halo",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case079",
+    "attribute": "calcifications",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case079",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case113",
+    "attribute": "shape",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case113",
+    "attribute": "halo",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case113",
+    "attribute": "calcifications",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case172",
+    "attribute": "halo",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case172",
+    "attribute": "calcifications",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case249",
+    "attribute": "halo",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case249",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case073",
+    "attribute": "halo",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case073",
+    "attribute": "calcifications",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case103",
+    "attribute": "calcifications",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case219",
+    "attribute": "halo",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case219",
+    "attribute": "calcifications",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case094",
+    "attribute": "margin",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case094",
+    "attribute": "halo",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case094",
+    "attribute": "calcifications",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case143",
+    "attribute": "shape",
+    "variant": "p01"
+  },
+  {
+    "case_id": "BrEaST-Case143",
+    "attribute": "halo",
+    "variant": "p01"
+  }
+]

@@ -1,0 +1,545 @@
+[
+  {
+    "case_id": "LUNA16_472",
+    "attribute": "margin",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Partial right and inferior nodule-to-lung transition, with an uneven upper-edge echo.",
+    "reason": "On the clean CT this small peripheral nodule fades most visibly along the right/lower rim. ConceptCLIP p01 already contacts that rim with separate neighboring activity, whereas MOE29 creates a broad surrounding field and relatively spares the nodule. Strengthen a few right/lower transition cells while retaining incomplete coverage and coarse spill.",
+    "target_patches": [
+      [
+        14,
+        14,
+        1
+      ],
+      [
+        13,
+        14,
+        0.84
+      ],
+      [
+        14,
+        13,
+        0.78
+      ],
+      [
+        12,
+        13,
+        0.42
+      ],
+      [
+        13,
+        12,
+        0.38
+      ],
+      [
+        14,
+        15,
+        0.32
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/luna_manual_batch_2026-10-17/review_inputs/LUNA16_472_margin.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_472/source.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_472/input.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/sheets/margin/LUNA16_472.png",
+      "D:/ConceptCLIP/shared_research/luna16_user_study_review_2026-10-12/definitions.json"
+    ],
+    "caveat": "The nodule is small relative to a 14-pixel patch, so an edge cell necessarily also covers interior or background. Manual illustration only; no clinical margin label or validated quality score."
+  },
+  {
+    "case_id": "LUNA16_472",
+    "attribute": "texture",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Dense upper-central interior with uneven lower-body coverage.",
+    "reason": "The clean target has a compact bright interior. ConceptCLIP p01 marks upper/central nodule tissue and preserves distracting remote patches; MOE29 p01 leaves the target interior unmarked. Strengthen the central interior and one lower cell, with weaker upper/right spill instead of uniform whole-target filling.",
+    "target_patches": [
+      [
+        13,
+        13,
+        1
+      ],
+      [
+        14,
+        13,
+        0.84
+      ],
+      [
+        13,
+        14,
+        0.66
+      ],
+      [
+        12,
+        13,
+        0.42
+      ],
+      [
+        14,
+        14,
+        0.35
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/luna_manual_batch_2026-10-17/review_inputs/LUNA16_472_texture.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_472/source.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_472/input.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/sheets/texture/LUNA16_472.png",
+      "D:/ConceptCLIP/shared_research/luna16_user_study_review_2026-10-12/definitions.json"
+    ],
+    "caveat": "Display brightness in this PNG is not a calibrated attenuation measure. This combined solid-or-part-solid prompt cannot distinguish solid from part-solid; weights are manually assigned illustrative values."
+  },
+  {
+    "case_id": "LUNA16_633",
+    "attribute": "margin",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Softer lower-left transition plus incomplete superior-edge support.",
+    "reason": "The clean CT shows an irregular lower-left nodule-lung junction and a softer superior transition. ConceptCLIP p01 supplies localized superior/right and lower-left edge contacts; MOE29 activation is more broadly distributed around the entire region. Make the lower-left junction the main manual focus and preserve partial superior support, leaving the lower-central contour incompletely covered.",
+    "target_patches": [
+      [
+        14,
+        12,
+        1
+      ],
+      [
+        15,
+        12,
+        0.76
+      ],
+      [
+        13,
+        12,
+        0.69
+      ],
+      [
+        12,
+        13,
+        0.8
+      ],
+      [
+        12,
+        14,
+        0.62
+      ],
+      [
+        13,
+        14,
+        0.57
+      ],
+      [
+        13,
+        15,
+        0.32
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/luna_manual_batch_2026-10-17/review_inputs/LUNA16_633_margin.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_633/source.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_633/input.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/sheets/margin/LUNA16_633.png",
+      "D:/ConceptCLIP/shared_research/luna16_user_study_review_2026-10-12/definitions.json"
+    ],
+    "caveat": "Nearby pleura and linear structures can blend with the apparent edge. Reference contour was used for lesion orientation only, not as an attribute mask; highlighted transitions are visual choices, not validated indistinct-margin annotations."
+  },
+  {
+    "case_id": "LUNA16_891",
+    "attribute": "margin",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Exploratory lower-left junction, with weaker pleural-attachment emphasis and deliberate spill.",
+    "reason": "The clean target has a comparatively defined contour and a broad pleural connection; intrinsic indistinct margin is not confidently established. ConceptCLIP p01 is chosen as a less diffuse visual scaffold than MOE29, not as evidence that the positive margin attribute is present. Place partial illustrative emphasis at the lower-left junction and a weaker attachment cell, leaving most of the contour unstrengthened.",
+    "target_patches": [
+      [
+        14,
+        12,
+        1
+      ],
+      [
+        14,
+        13,
+        0.8
+      ],
+      [
+        13,
+        12,
+        0.65
+      ],
+      [
+        13,
+        15,
+        0.6
+      ],
+      [
+        14,
+        11,
+        0.4
+      ],
+      [
+        12,
+        13,
+        0.35
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/luna_manual_batch_2026-10-17/review_inputs/LUNA16_891_margin.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_891/source.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_891/input.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/sheets/margin/LUNA16_891.png",
+      "D:/ConceptCLIP/shared_research/luna16_user_study_review_2026-10-12/definitions.json"
+    ],
+    "caveat": "Positive-margin correspondence is ambiguous in this case. A pleural attachment or neighboring linear structure is not itself an indistinct margin. This is a requested hypothetical illustration and must not be read as a confident positive-attribute annotation."
+  },
+  {
+    "case_id": "LUNA16_891",
+    "attribute": "texture",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Left-central dense interior with a weaker lower/right continuation.",
+    "reason": "The visible target contains a substantial bright left-central body connected to the pleura. ConceptCLIP p01 marks part of that interior and the lower component; MOE29 leaves it essentially unmarked. Strengthen the interior cells on the left/center and part of the lower component, keeping the right connection less emphasized and coverage uneven.",
+    "target_patches": [
+      [
+        13,
+        12,
+        1
+      ],
+      [
+        13,
+        13,
+        0.9
+      ],
+      [
+        14,
+        13,
+        0.78
+      ],
+      [
+        13,
+        14,
+        0.72
+      ],
+      [
+        14,
+        14,
+        0.48
+      ],
+      [
+        12,
+        12,
+        0.36
+      ],
+      [
+        13,
+        15,
+        0.28
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/luna_manual_batch_2026-10-17/review_inputs/LUNA16_891_texture.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_891/source.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_891/input.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/sheets/texture/LUNA16_891.png",
+      "D:/ConceptCLIP/shared_research/luna16_user_study_review_2026-10-12/definitions.json"
+    ],
+    "caveat": "Pleural brightness is not independent evidence of nodule solidity. The weights are illustrative display emphasis, and PNG intensity alone does not establish a calibrated solid or part-solid classification."
+  },
+  {
+    "case_id": "LUNA16_972",
+    "attribute": "margin",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Inferior-left lung-facing transition with partial nearby body and pleural spill.",
+    "reason": "The clean nodule has a softer lower-left transition as it approaches the pleura; much of the upper cap is more separable. ConceptCLIP p01 has local peripheral/lower-body contact while MOE29 mainly produces a broader surrounding field. Strengthen the lower-left edge and a short inferior segment, leaving much of the upper/right boundary at inherited levels.",
+    "target_patches": [
+      [
+        14,
+        12,
+        1
+      ],
+      [
+        15,
+        12,
+        0.86
+      ],
+      [
+        14,
+        13,
+        0.72
+      ],
+      [
+        15,
+        13,
+        0.55
+      ],
+      [
+        13,
+        12,
+        0.64
+      ],
+      [
+        12,
+        12,
+        0.38
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/luna_manual_batch_2026-10-17/review_inputs/LUNA16_972_margin.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_972/source.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_972/input.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/sheets/margin/LUNA16_972.png",
+      "D:/ConceptCLIP/shared_research/luna16_user_study_review_2026-10-12/definitions.json"
+    ],
+    "caveat": "Pleural blending limits separation of intrinsic edge indistinctness from adjacent tissue. Dark internal spaces are not margin cues. Partial edge placement is an illustrative visual choice, not spatial attribute ground truth."
+  },
+  {
+    "case_id": "LUNA16_972",
+    "attribute": "texture",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Upper dense cap and right/lower dense tissue around visible dark spaces.",
+    "reason": "The clean nodule contains dark internal spaces bordered by brighter tissue. Both models make local contact, but ConceptCLIP p01 provides clearer upper and right/lower dense-tissue emphasis with less blanket activation over the dark spaces than MOE29. Use the upper dense cap as the strongest patch and retain an uneven right/lower continuation.",
+    "target_patches": [
+      [
+        12,
+        13,
+        1
+      ],
+      [
+        13,
+        14,
+        0.9
+      ],
+      [
+        14,
+        14,
+        0.82
+      ],
+      [
+        13,
+        12,
+        0.55
+      ],
+      [
+        12,
+        14,
+        0.5
+      ],
+      [
+        15,
+        13,
+        0.4
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/luna_manual_batch_2026-10-17/review_inputs/LUNA16_972_texture.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_972/source.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_972/input.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/sheets/texture/LUNA16_972.png",
+      "D:/ConceptCLIP/shared_research/luna16_user_study_review_2026-10-12/definitions.json"
+    ],
+    "caveat": "Do not interpret the visible dark spaces as solid tissue. Coarse patches and inherited activation can still cross a lucency or pleura; this is an intentional imperfect illustration and does not clinically classify the internal spaces or solidity."
+  },
+  {
+    "case_id": "LUNA16_1051",
+    "attribute": "margin",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Upper-left lung-facing transition, with coarse left attachment spill.",
+    "reason": "The clean target has a locally soft upper-left transition and an adjacent pleural interface. ConceptCLIP p01 already makes stronger upper/left peripheral contact than the diffuse surrounding MOE29 field. Strengthen the upper-left and part of the superior boundary, with limited left/lower spill and without tracing the full contour.",
+    "target_patches": [
+      [
+        12,
+        12,
+        1
+      ],
+      [
+        13,
+        12,
+        0.8
+      ],
+      [
+        12,
+        13,
+        0.84
+      ],
+      [
+        12,
+        14,
+        0.65
+      ],
+      [
+        11,
+        12,
+        0.35
+      ],
+      [
+        13,
+        11,
+        0.48
+      ],
+      [
+        14,
+        12,
+        0.45
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/luna_manual_batch_2026-10-17/review_inputs/LUNA16_1051_margin.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_1051/source.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_1051/input.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/sheets/margin/LUNA16_1051.png",
+      "D:/ConceptCLIP/shared_research/luna16_user_study_review_2026-10-12/definitions.json"
+    ],
+    "caveat": "Some left-sided patches include chest-wall tissue or attachment. The selected lung-facing transition is a 2D visual interpretation; it is not a validated positive margin label or a claim that the whole boundary is indistinct."
+  },
+  {
+    "case_id": "LUNA16_1092",
+    "attribute": "margin",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Right core-to-lung transition beneath the branching border, with partial superior support.",
+    "reason": "The clean target has an elongated central body and irregular branching surroundings. ConceptCLIP p01 contacts the upper/right transition more directly than MOE29's broad field. Strengthen the right side of the dense body and part of its upper-right junction while retaining only weaker upper/left and lower spill.",
+    "target_patches": [
+      [
+        13,
+        14,
+        1
+      ],
+      [
+        12,
+        15,
+        0.8
+      ],
+      [
+        12,
+        14,
+        0.68
+      ],
+      [
+        12,
+        12,
+        0.6
+      ],
+      [
+        12,
+        13,
+        0.4
+      ],
+      [
+        14,
+        14,
+        0.45
+      ],
+      [
+        13,
+        15,
+        0.36
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/luna_manual_batch_2026-10-17/review_inputs/LUNA16_1092_margin.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_1092/source.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_1092/input.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/sheets/margin/LUNA16_1092.png",
+      "D:/ConceptCLIP/shared_research/luna16_user_study_review_2026-10-12/definitions.json"
+    ],
+    "caveat": "Radial projections and nearby vessels are not interchangeable with indistinct margin. The target is the local intensity transition at the body edge, with coarse imperfect overlap; no clinical confirmation or attribute ground truth is claimed."
+  },
+  {
+    "case_id": "LUNA16_1092",
+    "attribute": "texture",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Vertical dense central body, with uneven lower extension and limited side spill.",
+    "reason": "The clean target has an elongated dense central shaft. ConceptCLIP p01 places activation directly on the central upper/lower interior, whereas MOE29 largely spares it and instead marks a neighboring right-side region. Strengthen the central shaft and part of the inferior body, leaving the branching upper structures less emphasized.",
+    "target_patches": [
+      [
+        13,
+        13,
+        1
+      ],
+      [
+        14,
+        13,
+        0.93
+      ],
+      [
+        15,
+        13,
+        0.72
+      ],
+      [
+        13,
+        14,
+        0.62
+      ],
+      [
+        14,
+        12,
+        0.4
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/luna_manual_batch_2026-10-17/review_inputs/LUNA16_1092_texture.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_1092/source.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_1092/input.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/sheets/texture/LUNA16_1092.png",
+      "D:/ConceptCLIP/shared_research/luna16_user_study_review_2026-10-12/definitions.json"
+    ],
+    "caveat": "The branching exterior is not the texture target. These direct display weights are not calibrated attenuation, model evidence, or a clinical solid-versus-part-solid distinction."
+  },
+  {
+    "case_id": "LUNA16_1134",
+    "attribute": "margin",
+    "source_model": "base",
+    "variant": "p01",
+    "focus": "Inferior-left and lower-tip transition, with incomplete coverage and vascular spill.",
+    "reason": "The clean target has an irregular triangular body with visibly fading inferior/left transitions among neighboring linear structures. ConceptCLIP p01 already supplies inferior/peripheral contact, while MOE29 spreads activity across a broad lung/vascular field. Strengthen the lower-left edge and lower tip, with weaker side contact rather than complete contour coverage.",
+    "target_patches": [
+      [
+        14,
+        12,
+        1
+      ],
+      [
+        15,
+        13,
+        0.84
+      ],
+      [
+        14,
+        13,
+        0.86
+      ],
+      [
+        13,
+        12,
+        0.62
+      ],
+      [
+        14,
+        14,
+        0.62
+      ],
+      [
+        15,
+        12,
+        0.5
+      ],
+      [
+        13,
+        15,
+        0.35
+      ]
+    ],
+    "inspected_files": [
+      "D:/ConceptCLIP/shared_research/luna_manual_batch_2026-10-17/review_inputs/LUNA16_1134_margin.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_1134/source.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/assets/LUNA16_1134/input.png",
+      "D:/ConceptCLIP/shared_research/luna16_train_attribute_gallery_2026-10-15/sheets/margin/LUNA16_1134.png",
+      "D:/ConceptCLIP/shared_research/luna16_user_study_review_2026-10-12/definitions.json"
+    ],
+    "caveat": "Adjacent vessels and radial structures may be included by the coarse grid. Their presence does not independently prove indistinct margin; this is an imperfect illustrative transition map, not a clinical annotation."
+  }
+]
